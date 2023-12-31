@@ -6,5 +6,5 @@
     "num_epochs": 10,
     "step_size": 7,
     "gamma": 0.1,
-    "output_path": "C:/Users/kimhyesu/Documents/GitHub/resnet_cifar10/231231_restnet_101_matrix.txt"
+    "output_path": "result/231231_restnet_101_matrix.txt"
 }

@@ -11,7 +11,6 @@ from model import prepare_datasets, prepare_model, train_model
 # Function to load parameters from JSON
 def load_params(json_path):
     with open(json_path, encoding='UTF-8') as f:
-        print(f)
         params = json.load(f)
     return params
 
