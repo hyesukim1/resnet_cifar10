@@ -18,7 +18,7 @@ def load_params(json_path):
 model_params = ['model.json', 'model_2.json', 'model_3.json']
 for m in model_params:
     parser = argparse.ArgumentParser(description='Deep Learning Training Parameters')
-    parser.add_argument('--config', type=str, default='C:/Users/kimhyesu/PycharmProjects/컴퓨터비전정주행Kit/part2_chapter3/'+m, help='Path to the config file')
+    parser.add_argument('--config', type=str, default='C:/Users/kimhyesu/Documents/GitHub/resnet_cifar10/'+m, help='Path to the config file')
     args = parser.parse_args()
 
     params = load_params(args.config)
